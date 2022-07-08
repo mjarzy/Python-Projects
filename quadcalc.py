@@ -1,8 +1,8 @@
 import math
 from time import sleep
 
-#Intial title block and instructions
-print("Welcome to the Quadratic Equation Calculator, Skowronek Edition")
+#Initial title block and instructions
+print("Welcome to the Quadratic Equation Calculator, Monkey Edition")
 print("Please enter the parameters of your quadratic equation")
 print("-----------------------------------------------")
 
@@ -11,7 +11,7 @@ a = int(input("Enter A: "))
 b = int(input("Enter B: "))
 c = int(input("Enter C: "))
 
-#Determine if the equation is quadratic and calucate the discriminant
+#Determine if the equation is quadratic and calculate the discriminant
 if a == 0:
     print("Enter a quadratic equation you trained monkey!")
     input("Press Enter to exit")

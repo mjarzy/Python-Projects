@@ -47,3 +47,7 @@ elif choice == 3:
     print("Vector 1:", v1)
     print("Vector 2:", v2)
     print("Vector Subtraction:", v1[0]-v2[0], v1[1]-v2[1], v1[2]-v2[2])
+else:
+    print("Invalid input")
+    input("Press Enter to exit")
+    exit()
